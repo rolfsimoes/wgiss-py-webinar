@@ -26,9 +26,6 @@ git clone https://github.com/e-sensing/wgiss-py-webinar.git
 ```
 - Start jupyter
 ```
-jupyter notebook
-
-```
 - Finally, *Jupyter* starts a new browser where you can reach the notebook called ***WGISS_Tech_Webinar.ipynb***
 - Once done, to de-activate the geospatial environment run:
 ```
