@@ -1,5 +1,4 @@
-# wgiss-py-webinar
-WGISS Tech Webinar - Python for Data Science in Earth Observation Analysis 
+# WGISS Tech Webinar - Python for Data Science in Earth Observation Analysis
 
 ## Setup in Ubuntu 16
 
@@ -29,7 +28,7 @@ git clone https://github.com/e-sensing/wgiss-py-webinar.git
 - Finally, *Jupyter* starts a new browser where you can reach the notebook called ***WGISS_Tech_Webinar.ipynb***
 - Once done, to de-activate the geospatial environment run:
 ```
-source deactivate geospatial
+source deactivate
 ```
 - To remove the whole geospatial environment
 ```
