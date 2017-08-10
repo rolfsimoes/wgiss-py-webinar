@@ -7,7 +7,7 @@
 conda create --name geospatial python=2.7
 ```
 
-The new environment is created at: ```/home/user/anaconda2/envs/geospatial```
+The new environment is created at: ```/home/user/anaconda2/envs/geospatial```.
 
 - Check if the ```geospatial``` environment were properly created by listing all the environments:
 ```
@@ -21,13 +21,11 @@ source activate geospatial
 ```
 conda install ipykernel
 ```
-```
 - Clone this repository:
 ```
 git clone https://github.com/e-sensing/wgiss-py-webinar.git
 ```
 - Start jupyter:
-```
 - Finally, *Jupyter* starts a new browser where you can reach the notebook called ```WGISS_Tech_Webinar.ipynb```.
 - Once done, to de-activate the geospatial environment run:
 ```
