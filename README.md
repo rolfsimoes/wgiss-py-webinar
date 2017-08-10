@@ -13,7 +13,7 @@ The new environment is created at: ```/home/user/anaconda2/envs/geospatial```
 ```
 conda info --envs
 ```
-- Activate the *geospatial* environment:
+- Activate the ```geospatial``` environment:
 ```
 source activate geospatial
 ```
