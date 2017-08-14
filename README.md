@@ -40,3 +40,14 @@ source deactivate
 ```
 conda remove --name geospatial --all
 ```
+## Setup in Mac OS X
+
+```bash
+conda update conda
+conda create --name geospatial python=2.7
+source activate geospatial
+conda install -c conda-forge folium
+conda install ipykernel
+conda install nb_conda
+python -m ipykernel install --user --name geospatial --display-name "Python [geospatial]"
+```
