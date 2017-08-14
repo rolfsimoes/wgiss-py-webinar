@@ -21,6 +21,11 @@ source activate geospatial
 ```
 conda install ipykernel
 ```
+- Install additional libraries:
+```
+pip install folium
+pip install vincent
+```
 - Clone this repository:
 ```
 git clone https://github.com/e-sensing/wgiss-py-webinar.git
