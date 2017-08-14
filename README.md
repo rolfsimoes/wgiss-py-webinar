@@ -50,4 +50,6 @@ conda install -c conda-forge folium
 conda install ipykernel
 conda install nb_conda
 python -m ipykernel install --user --name geospatial --display-name "Python [geospatial]"
+git clone https://github.com/e-sensing/wgiss-py-webinar.git
+jupyter notebook
 ```
