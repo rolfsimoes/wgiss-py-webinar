@@ -7,10 +7,11 @@
 conda update conda
 conda create --name geospatial python=2.7
 source activate geospatial
-conda install -c conda-forge folium
+conda install -c conda-forge scipy matplotlib pandas folium
 conda install ipykernel
 conda install nb_conda
 python -m ipykernel install --user --name geospatial --display-name "Python [geospatial]"
+pip install wtss
 git clone https://github.com/e-sensing/wgiss-py-webinar.git
 jupyter notebook
 ```
