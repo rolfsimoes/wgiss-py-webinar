@@ -36,7 +36,7 @@ def wtss_get_time_series(samples):
     return data
 
 
-def plot_time_series(data):
+def plot_time_series(data, w = 15, h = 5):
     
     # get colors according to label
     labels, index_labels = np.unique(data.groupby("id").agg({"label": "first"})["label"], 
@@ -45,7 +45,7 @@ def plot_time_series(data):
     
     # plot time series
     matplotlib.style.use("ggplot")
-    fig, ax = plt.subplots(1)
+    fig, ax = plt.subplots(1, figsize = (w, h))
     fig.subplots_adjust(bottom=0.2)
 
     # multiline plot with group by time serie id
