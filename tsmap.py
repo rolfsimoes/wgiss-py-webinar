@@ -14,7 +14,7 @@ def createTSMap(pos, timeSeries, zoom_start = 4.0):
 
     popup = folium.Popup(max_width = 400)
     folium.Vega(chart.to_json(), height = 200, width = 450).add_to(popup)
-    folium.Marker(pos.items(), popup = popup, icon = folium.Icon(color = 'green', icon = 'info-sign')).add_to(map)
+    folium.Marker([pos['lat'], pos['lon']], popup = popup, icon = folium.Icon(color = 'green', icon = 'info-sign')).add_to(map)
 
     #wms = folium.features.WmsTileLayer('https://neo.sci.gsfc.nasa.gov/wms/wms',
     #                                   name='MODIS Data',
