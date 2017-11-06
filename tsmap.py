@@ -2,7 +2,7 @@ import folium
 import vincent
 import pandas
 
-def createTSMap(pos, timeSeries, zoom_start = 4):
+def createTSMap(pos, timeSeries, zoom_start = 4.0):
     #map = folium.Map(location=[pos['lat'], pos['lon']], zoom_start = 4,crs = 'EPSG4326') # Forces EPSG4326 to make MOD13A2_M_NDVI work
     map = folium.Map(location = [pos['lat'], pos['lon']], zoom_start = zoom_start)
 
